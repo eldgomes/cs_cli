@@ -1,5 +1,4 @@
-using System;
-using Vehicle; // Import the Vehicle namespace
+using Vehicle;
 
 class Program
 {
@@ -8,7 +7,7 @@ class Program
         Car myCar = new Car();
         Truck myTruck = new Truck();
 
-        myCar.DisplayColor();  // Output: red
-        myTruck.DisplayColor(); // Output: blue
+        myCar.DisplayColor();
+        myTruck.DisplayColor();
     }
 }
