@@ -1,0 +1,2 @@
+csc /out:Hello.exe Hello.cs
+Hello

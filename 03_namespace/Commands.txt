@@ -1,0 +1,3 @@
+csc /target:library /out:Vehicle.dll Car.cs Truck.cs            //generate the dll for the namespace
+csc /reference:Vehicle.dll /out:MyExeName.exe Program.cs        //create the exe
+MyExeName
