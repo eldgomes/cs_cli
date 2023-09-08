@@ -8,3 +8,9 @@ csc /target:library VehicleBase.cs
 csc /reference:VehicleBase.dll /target:library Car.cs
 csc /reference:VehicleBase.dll /target:library Truck.cs
 csc /reference:VehicleBase.dll /out:MyProgram.exe Program.cs
+
+// adding bash script
+icacls Test.sh /grant "%username%:RX" (from file location)
+open in git bash
+cd to the file path
+./Test.sh
