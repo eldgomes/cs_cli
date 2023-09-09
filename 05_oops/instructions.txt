@@ -1,0 +1,19 @@
+Inheritance:
+csc /out:test.exe Inheritance.cs
+test
+
+Encapsulation:
+csc /out:test.exe Encapsulation.cs
+test
+
+Polymorphism:
+csc /out:test.exe Polymorphism.cs
+test
+
+Abstraction:
+csc /out:test.exe Abstraction.cs
+test
+
+Interfaces:
+csc /out:test.exe Interfaces.cs
+test

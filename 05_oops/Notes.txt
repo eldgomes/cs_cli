@@ -1,0 +1,8 @@
+OOPS - probably evolved just out of the need to write cleaner code
+
+Inheritance: Move up a common object with common functions
+Encapsulation: Make sure only the right things have the required access
+Polymorphism: Ability to give specificity to behaviour of child classes
+Abstraction: Ditch the stupid code in base class
+
+Interfaces: Move up an abstract class with just the behaviours
